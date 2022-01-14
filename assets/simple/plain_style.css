@@ -1,0 +1,183 @@
+.custom_nav{
+        justify-content: space-around;
+}
+
+.nav-item{
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.image-wrapper img{
+    width:100px !important;
+    border-radius: 50%;
+}
+
+.card-wrap{
+    box-shadow: 2px 2px 5px black;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    transition: all 1s cubic-bezier(0, 1.35, 0.9, 0.35);
+}
+
+.card-wrap:hover{
+    box-shadow: 2px 2px 10px rgb(32, 32, 31);
+    background-color: rgb(136, 175, 177); 
+    transform: translateY(-10px) translateX(-3px); 
+
+    border: 30px;
+}
+.card-wrapper{
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    border: 2px solid #ffffff;
+    border-top-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+}
+
+.card-wrapper:hover{
+    border-top-right-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    transform: translateY(20px);
+}
+.card-wrapper .card-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.seller_icon_rate{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.seller_icon_rate img{
+    width:32px;
+    height: auto;
+    margin-right: 15px;
+    
+}
+.good_rate{
+    background-color: #40b0bf;
+    border: 2px solid #ffffff; 
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    border-radius: 50%;
+}
+
+.bad_rate{
+    background-color: #1a1313;
+    border: 2px solid #ffffff; 
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    border-radius: 50%;
+}
+
+#form8-x{
+    background-color: rgb(0 0 0 / 3%);
+}
+.coin-card-wrap{
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.coin_img{
+    width:100px;
+    border-radius: 50%;
+    border:1px solid white;
+    margin-top: 6px;
+}
+.crypto_data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.crypto_value{
+    margin-top: 10px;
+    width: 60%;
+    justify-content: space-evenly;
+}
+.crypto_value p{
+    font-size: small;
+    align-self: center;
+}
+
+.crypto_img_name .coin_img{
+    width: 60px;
+}
+.crypto_img_name span{
+    align-self:flex-end;
+}
+
+.radio_coin_col{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    
+}
+
+.btn-group.radio_coin_div{
+    vertical-align: text-bottom;
+}
+.image-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-wrap img{
+    width:100px !important;
+    border-radius: 50%;
+    border:1px solid white;
+    margin-top: 6px;
+}
+
+.mbr-iconfont {
+    font-size: 2rem !important;
+    display: inline !important;
+    margin-bottom: 0rem !important;
+}
+
+/* reducing padding of chart form in chart page */
+.cid-sPUHesk2Og {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+}
+
+/* this styling block is used for mbr icon display type responsiveness */
+@media screen and (max-width:440px) {
+    .mbr-iconfont {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width:411px) and (min-width:320px){
+    .crypto_value{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:319px) {
+    .crypto_img_name{
+        flex-direction: column;
+    }
+    .crypto_value{
+        flex-direction: column;
+    }
+
+    .card-box button{
+        font-size: xx-small;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .radio_coin_col .radio_label{
+        font-size: x-small !important;
+    }
+    }
+    
